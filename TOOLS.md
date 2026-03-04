@@ -62,3 +62,13 @@ Add whatever helps you do your job. This is your cheat sheet.
 - Do **not** assume host helper paths exist inside sandbox runtimes.
   - `/usr/local/bin/openclaw-restart-gateway` may exist on host but not inside sandbox containers.
 - If `/restart` is disabled, check config `commands.restart` and enable it.
+
+### GitHub Backup (Abby)
+
+- Repo: `git@github-oc-abby:solero10/oc_abby.git`
+- Workspace tracked: `/home/kernk/.openclaw-docker-clone/state/workspace-twin`
+- Snapshot command:
+  - `/home/kernk/.openclaw-docker-clone/state/workspace-twin/automation/git_snapshot.sh`
+- Notes:
+  - Only selected files/dirs are committed (AGENTS/SOUL/USER/TOOLS/IDENTITY/HEARTBEAT/BOOT/memory/automation/reports).
+  - Hidden runtime state and credentials are not staged by this script.
