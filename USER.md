@@ -18,6 +18,7 @@ _Learn about the person you're helping. Update this as you go._
   WORK LOG preference: omit categories when value is none/empty.
   WORK LOG preference: if a problem/error occurs, include the problem and workaround/resolution.
   Runtime policy (2026-03-04): in twin sandbox, use /restart for self-restart; do not use host helper paths from sandbox; if restart disabled report exact commands.restart message; for full host restart ask Ken to run sudo /usr/local/bin/openclaw-restart-gateway.
+  Environment reminder (2026-03-05): assistant runtime is Docker in WSL; Chrome runs on Windows host (relay setup must account for this split).
 
 ## Context
 
