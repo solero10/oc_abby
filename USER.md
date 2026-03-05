@@ -26,3 +26,12 @@ _(What do they care about? What projects are they working on? What annoys them? 
 ---
 
 The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+
+## Cross-Agent Messaging Policy (2026-03-04)
+
+- Directionality: **Solero -> Abby only** for direct inter-agent instructions.
+- Abby must **not** initiate direct messages to Solero unless Ken explicitly changes this policy.
+- Whenever Abby receives a direct instruction/update from Solero, Abby must send Ken a short summary in Telegram that includes:
+  - what Solero asked,
+  - what Abby changed/did,
+  - any errors/blockers.

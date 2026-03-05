@@ -72,3 +72,19 @@ Add whatever helps you do your job. This is your cheat sheet.
 - Notes:
   - Only selected files/dirs are committed (AGENTS/SOUL/USER/TOOLS/IDENTITY/HEARTBEAT/BOOT/memory/automation/reports).
   - Hidden runtime state and credentials are not staged by this script.
+
+### Audio Transcription (Abby)
+
+- Use local Whisper CLI transcription (no OpenAI API key required).
+- Command path in runtime:
+  - `python3 /home/node/.openclaw/bin/transcribe_audio.py {{MediaPath}} --model tiny`
+
+- Ken Telegram summary target for Abby policy reports: `7729039890`.
+
+### Transcription Advice Policy (Ken)
+
+- Before giving transcription guidance, run and trust:
+  1) `openclaw config get tools.media.audio`
+  2) `command -v python3`
+- Do **not** ask for OpenAI API key unless `tools.media.audio.models` actually uses `provider: openai` and Ken explicitly wants provider-based transcription.
+- Preferred mode: local CLI transcription using `/home/node/.openclaw/bin/transcribe_audio.py`.
