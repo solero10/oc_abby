@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Solero//OpenClaw//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:kbbq-20260308-180000@solero.local
+DTSTAMP:20260227T000000Z
+SUMMARY:Korean BBQ with Homies
+DTSTART;TZID=America/Los_Angeles:20260308T180000
+DTEND;TZID=America/Los_Angeles:20260308T200000
+LOCATION:M Korean BBQ\, The Source OC\, 6982 Beach Blvd\, Suite C-320\, Buena Park
+DESCRIPTION:Korean BBQ gathering. Approx food cost per person: $35 (not all-you-can-eat).\nGroup ordering for premium meats; appetizers\, salad\, and soup included.\nRSVP to Chel at 949-547-9917 by March 1.\nFamily and friends welcome.
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
