@@ -2,7 +2,8 @@ import { spawn } from "node:child_process";
 import fs from "node:fs";
 import net from "node:net";
 
-const SCRIPT = "/home/node/.openclaw/proxy/https_tunnel.py";
+const HOME = process.env.HOME || "/home/kernk";
+const SCRIPT = `${HOME}/.openclaw/proxy/https_tunnel.py`;
 const PORT = 18443;
 const HOST = "127.0.0.1";
 

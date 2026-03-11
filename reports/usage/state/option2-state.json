@@ -1,0 +1,37 @@
+{
+  "updatedAt": 1773221851,
+  "snapshot": {
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38": 12911,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:3a95ba61-fc9e-438e-952f-a2425a4ccd82": 12911,
+    "agent:main:discord:channel:1480677127182614548": 0,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135": 14173,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:19fce5ca-7fec-4cca-bf8c-89a2a64355dd": 14173,
+    "agent:main:telegram:direct:7729039890": 140437,
+    "agent:main:main": 0,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:92b19b00-333b-4e35-9560-7364bfbe5377": 12911,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:e85d39f0-41bf-4af4-9970-f8d86f9b442f": 15096,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:2ce87871-7216-4bd1-a007-e5a688de9ec0": 13028,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:fb10478a-6e8a-42df-8b88-0accde59359b": 12488,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:16a61c1f-3378-4e6a-b23a-e091199b8eed": 13787,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:5d935aab-8a76-4ac9-98a7-65fd2dff6254": 12685,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:eb46fd5a-d371-4de9-8c3e-bf0f42891230": 15290,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:97e3bc47-9f12-4c17-8552-444eac99f86d": 12850,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:12c1180e-3361-4da1-870c-2b6e087a05c8": 14253,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:1ee038ec-e729-4081-9fd9-92943fcdfbd7": 14303,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:64cecd9e-b8c7-400f-b6c4-046858cfd8de": 14840,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:ab5357ac-13c6-4c7a-886f-5d0a56079244": 12758,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:8fa4ecae-370e-44fe-a036-331ee733fac4": 14203,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:9553e07a-a12d-46d9-ac4b-4894e211ce25": 13486,
+    "agent:main:cron:e04d5864-e920-4742-b8f0-ebf64bf80b38:run:41e3eacc-2423-41b0-af23-df7e80141d11": 12895,
+    "agent:main:cron:7cfa775f-553b-4458-99b2-3ec3a4ea6135:run:2c8dcbb5-7c77-4da3-b8a3-78a225211b5f": 14054
+  },
+  "last": {
+    "severity": "NONE",
+    "rule": null,
+    "topSessionKey": "agent:main:telegram:direct:7729039890",
+    "topSessionLabel": "agent:main:telegram:direct:7729039890",
+    "topGrowth": 0,
+    "totalGrowth": 0,
+    "sessionCount": 23
+  }
+}

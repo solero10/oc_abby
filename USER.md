@@ -16,6 +16,10 @@ _Learn about the person you're helping. Update this as you go._
   Response format preference: include a WORK LOG on task responses (files read, files created/edited, commands run, skills used) and include FQDNs of sites contacted.
   Verification preference: for OpenClaw state/config questions (agents, routing, channels, bindings, existence checks), verify with local CLI commands first and treat CLI output as ground truth. If any tool output conflicts with CLI, report the mismatch and use CLI-grounded results before answering or taking action.
   Restart-notice preference: before any assistant-initiated restart/reload action, send Ken a message 5 seconds beforehand stating a restart is about to happen.
+  Restart-completion preference: after any assistant-initiated restart/reload action, the first post-restart message must be exactly "I am back up".
+  Restart-verification preference: after that post-restart message, explicitly verify the last in-flight step, reporting whether it fully completed and any remaining follow-up.
+  Continuity preference: maintain restart continuity using (1) in-flight task ledger and (2) restart sentinel/checkpoint so work auto-resumes without needing user reminders.
+  Closure preference: after any restart-required task, send one explicit final closure summary (completed work, verification evidence, pending follow-up or none, and next-step owner) before switching topics.
 
 ## Context
 
